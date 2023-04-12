@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Calculadora bàsica </title>
+    <link rel="stylesheet" href="css/eje-cdv-10.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <form id="calculadora">
+            <h1>Calculadora Básica</h1>
+            <div id="datos">
+                <input type="number" id="n1" placeholder="0">
+                <input type="number" id="n2" placeholder="0">
+            </div>
+            <div id="operaciones">
+            <h3>Resultado:<label id="res">0.0</label></h3>
+            <input class="boton" type="button" id="mas" value="+" onclick="sumaNumeros();">
+            <input class="boton" type="button" id="menos" value="-" onclick="restaNumeros();">
+            <input class="boton" type="button" id="por" value="*" onclick="multiplicaNumeros();">
+            <input class="boton" type="button" id="entre" value="/" onclick="divideNumeros();">
+            </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <script src="js/eje-cdv-10.js"></script>
+    </footer>
+</body>
+</html>
